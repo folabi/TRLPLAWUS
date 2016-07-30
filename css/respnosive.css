@@ -1,0 +1,241 @@
+/* Responsive CSS*/
+@media screen and (min-width: 1201px){
+    .contact {
+        background-position:0;
+    }
+    .achievements {
+        background-position:0;
+    }
+    .header .brand-nav .leftDiv {
+        width: 27%;
+    }
+	.bx-wrapper .bxslider img{
+		width:100%;
+	}	
+}
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 60px;
+	}
+    .header .carousel-caption1 {
+        top: 130px;
+    }
+    
+    .header .carousel-caption2 {
+        top: 175px;
+    }    
+}
+
+@media screen and (max-width: 991px) {
+	h1 {
+		font-size: 36px;
+	}
+	.header .carousel-caption {
+		top: 175px;
+	}
+	.navfix {
+		overflow: visible;
+	}	
+	.navbar-default .navbar-nav {
+		margin-right:0;
+		position: relative;
+		left: -55px;
+	}    
+	.navbar-default .navbar-nav li {
+		margin-left: 15px;
+	}    
+	.services .col-sm-3 {
+		text-align: center;
+	}
+	.intro p {
+		padding: 0;
+	}    
+	.services span {
+		display: block;
+	}
+	.achievements {
+		background: none;
+	} 
+	/*------about tab-----*/
+	.tab-pane {
+		padding-bottom: 50px;
+	}
+	.bs-example-tabs .nav > li > a {
+		padding: 10px;
+	}
+	.team-background {
+		margin-bottom: 50px;
+	}
+	.team-background img {
+		width: 100%;
+	}
+	#owl-demo .item .itemRight {
+		background: none;
+		height: auto;
+	}
+	#owl-demo .item .itemRight p {
+		padding: 0;
+	} 
+	#owl-demo .owl-pagination {
+		top: -40px;
+	}    
+	.blog .form-slider {
+		margin-top: 0px;
+	} 
+	.blog .form-date h3, .blog .form-acord h3, .blog .form-slider h3 {
+		margin-bottom: 15px;
+	}    
+	.promo {
+		height: auto;
+	}     
+	.promo p {
+		margin-left: 65px;
+		padding-bottom: 50px;
+	}
+	.blog h4.panel-title a {
+		line-height: 25px;
+	}
+	.contact-form .contact-right img {
+		width: 350px;
+	}
+	.contact {
+		background: rgba(79, 90, 179, 0.9);
+	}
+	.footer .footer-left {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 890px) {
+	.navbar-default .navbar-nav li {
+		margin-left: 10px;
+	}
+	.header .carousel-caption h6 {
+		margin: 10px 0;
+	}    
+	.header .carousel-caption {
+		top: 100px;
+	}
+	.header .carousel-caption2 {
+		top: 125px;
+	} 
+	.promo h3, .promo p{
+		margin-left: 30px;
+	}     
+}
+
+@media screen and (max-width: 767px) {
+	.barIcon {
+		top: -66px;
+	} 
+	.navbar-default {
+		top: -63px;
+	}	
+	.navbar-default .navbar-collapse, 
+	.navbar-default .navbar-form {
+		border: none;
+	}
+	.navbar-toggle {
+		right: 55px;
+	}    
+	.navbar-default .navbar-nav {
+		left: 0;
+		float: none;
+		background: #B33946;
+	}
+	.header .navbar-home .brand-nav {
+		top: 39px;
+	}
+	.header .carousel-caption {
+		top: 105px;
+	}    
+	h1 {
+		font-size: 18px;
+	} 
+	.header .carousel-caption h6 {
+		font-size: 14px;
+		line-height: 0px;
+	}
+	.achievements .overlay .col-sm-3, .achievements .overlay .col-md-3{
+		text-align: center;
+	}
+	.promo {
+		background: #B53E45;
+	}    
+	.promo h3, .promo p{
+		margin-left: 0;
+	}	
+	.team .team-background img{
+		margin: 0 auto;
+	}
+	.about .full-background {
+		height: 72px;
+	}
+	.team .team-background {
+		margin-bottom: 15px;
+	}
+	.blog-page h2 {
+		margin: 0;
+	}
+	.footer .overlay:after {
+		background: none;
+	}    
+	.footer .overlay:before {
+		background: none;
+	}    
+	.footer .contact-area {
+		margin-bottom: 50px;
+	}	
+}
+
+@media screen and (max-width: 480px) { 
+    .top-bar{
+		display: none;
+	}
+	.header .carousel-caption {
+		top: 60px;
+	}  
+	.footer .footer-left {
+		padding-right: 0;
+	}
+    .barIcon {
+        display: none;
+    }
+    .navbar-toggle {
+        right: -15px;
+        top: -25px;
+    }
+    .navbar-fixed-top {
+        top: -39px;
+    } 
+    .header .brand-nav .leftDiv {
+        width: 40%;
+    }
+	.blog-page h2 {
+		margin: 35px;
+	}
+	#google-map {
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+    .bx-wrapper {
+		top: 80px;
+	}
+	.header .carousel-caption {
+		top: -20px;
+	} 
+	.header .carousel-caption h6 {
+		display: none;
+	} 
+	.barIcon {
+        display: none;
+    }
+    .navbar-toggle {
+        right: -15px;
+    }
+}
+
+
+
